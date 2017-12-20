@@ -16,4 +16,4 @@ PRODUCT_PACKAGES += \
     FeliCaLock \
     libcordon
 
-$(call inherit-product, vendor/samsung/kltekdi-felica-common/felica-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/felica-common/felica-common-vendor-blobs.mk)
