@@ -14,12 +14,6 @@
 
 PRODUCT_PACKAGES += \
     FeliCaLock \
-    FeliCaRemoteLock \
-    FeliCaTest \
-    MobileFeliCaClient \
-    MobileFeliCaMenuApp \
-    MobileFeliCaSettingApp \
-    MobileFeliCaWebPluginBoot \
     libcordon
 
-$(call inherit-product, vendor/samsung/felica-common/felica-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/kltekdi-felica-common/felica-common-vendor-blobs.mk)
